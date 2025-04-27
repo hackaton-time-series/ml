@@ -1,2 +1,5 @@
 Train_timeseries.csv
 Timeseries_six_test.csv
+.DS_Store
+venv/
+__pycache__

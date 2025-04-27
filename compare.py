@@ -18,8 +18,8 @@ PREDICTION_DATA_FILE = 'predictions.csv' # e.g., predictions from Shifted Output
 OUTPUT_PLOT_FILE = 'evaluation_actual_vs_pred_plot.png' # New plot name
 
 SERIES_TO_PLOT = ['Series1', 'Series2', 'Series3', 'Series4', 'Series5', 'Series6']
-PLOT_PERIOD_LIMIT = '7D' # Example: Plot first 7 days of available comparison period
-# PLOT_PERIOD_LIMIT = None # Uncomment to plot all available comparison period
+# PLOT_PERIOD_LIMIT = '7D' # Example: Plot first 7 days of available comparison period
+PLOT_PERIOD_LIMIT = None # Uncomment to plot all available comparison period
 
 # --- Helper Function for sMAPE ---
 def symmetric_mean_absolute_percentage_error(y_true, y_pred, epsilon=1e-10):
